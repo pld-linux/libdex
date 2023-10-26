@@ -6,12 +6,12 @@
 Summary:	GNOME library for deferred execution
 Summary(pl.UTF-8):	Biblioteka GNOME do odroczonego wykonywania kodu
 Name:		libdex
-Version:	0.4.0
+Version:	0.4.1
 Release:	1
 License:	LGPL v2.1+
 Group:		Libraries
 Source0:	https://download.gnome.org/sources/libdex/0.4/%{name}-%{version}.tar.xz
-# Source0-md5:	ce9126c3ebc42c73471c331e4c6e6761
+# Source0-md5:	113859bfbb0ad619bbb5a577f807b9bc
 URL:		https://gitlab.gnome.org/GNOME/libdex
 %{?with_apidocs:BuildRequires:	gi-docgen}
 BuildRequires:	glib2-devel >= 1:2.68
